@@ -8,6 +8,7 @@
 
 #import "TMSInputView.h"
 #import "AppDelegate.h"
+#import "UITextView+Placeholder.h"
 #import <Masonry.h>
 #import "TMSStickerView.h"
 #import <IQKeyboardManager.h>
@@ -126,6 +127,7 @@
     textView.delegate = self;
     textView.returnKeyType = UIReturnKeySend;
     textView.enablesReturnKeyAutomatically = YES;
+    textView.placeholder = @"发一条友善的评论吧~";
     [self addSubview:textView];
     [textView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(@6);

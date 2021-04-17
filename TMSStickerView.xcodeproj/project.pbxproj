@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FD8F393262B028500351DC6 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8F392262B028500351DC6 /* UITextView+Placeholder.m */; };
 		6E7ED40F21ED87A30048BC6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED40E21ED87A30048BC6B /* AppDelegate.m */; };
 		6E7ED41221ED87A30048BC6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED41121ED87A30048BC6B /* ViewController.m */; };
 		6E7ED41521ED87A40048BC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7ED41321ED87A40048BC6B /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FD8F391262B028500351DC6 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		0FD8F392262B028500351DC6 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 		20CD065BA089A29C04337347 /* Pods-TMSStickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMSStickerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMSStickerView/Pods-TMSStickerView.release.xcconfig"; sourceTree = "<group>"; };
 		6E7ED40A21ED87A30048BC6B /* TMSStickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMSStickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7ED40D21ED87A30048BC6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 		6E7ED42321ED91A60048BC6B /* StickerView */ = {
 			isa = PBXGroup;
 			children = (
+				0FD8F391262B028500351DC6 /* UITextView+Placeholder.h */,
+				0FD8F392262B028500351DC6 /* UITextView+Placeholder.m */,
 				6E7ED42421ED91D90048BC6B /* emoji_ios9+.json */,
 				6E7ED42621ED91E80048BC6B /* TMSEmoji.h */,
 				6E7ED42721ED91E80048BC6B /* TMSEmoji.m */,
@@ -265,6 +270,7 @@
 				6E7ED42821ED91E80048BC6B /* TMSEmoji.m in Sources */,
 				6E7ED43121EDAC890048BC6B /* TMSStickerCollectionViewCell.m in Sources */,
 				6EF4845021F06ED600A5C6CA /* UIImage+Effect.m in Sources */,
+				0FD8F393262B028500351DC6 /* UITextView+Placeholder.m in Sources */,
 				6E7ED41D21ED87A70048BC6B /* main.m in Sources */,
 				6E7ED43421EDB33E0048BC6B /* TMSEmojiPreviewView.m in Sources */,
 				6E7ED40F21ED87A30048BC6B /* AppDelegate.m in Sources */,

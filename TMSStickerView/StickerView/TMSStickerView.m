@@ -218,12 +218,12 @@
     if (!self.isHideCustomEmoji) {
         TMSEmoji *emoji = [[TMSEmoji alloc] init];
         emoji.type = TMSEmojiTypePeople;
-        emoji.title = @"普通";
+        emoji.title = @"默认";
         [titlesArray addObject:emoji];
-        emoji = [[TMSEmoji alloc] init];
-        emoji.type = TMSEmojiTypeFlower;
-        emoji.title = @"自定义";
-        [titlesArray addObject:emoji];
+//        emoji = [[TMSEmoji alloc] init];
+//        emoji.type = TMSEmojiTypeFlower;
+//        emoji.title = @"自定义";
+//        [titlesArray addObject:emoji];
     } else {
         TMSEmoji *emoji = [[TMSEmoji alloc] init];
         emoji.type = TMSEmojiTypePeople;
