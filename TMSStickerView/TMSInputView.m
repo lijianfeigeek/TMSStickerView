@@ -125,7 +125,7 @@
     textView.layer.cornerRadius = 15;
     textView.textContainerInset = UIEdgeInsetsMake(9, 9, 7, 6);
     textView.delegate = self;
-    textView.returnKeyType = UIReturnKeySend;
+    textView.returnKeyType = UIReturnKeyGo;
     textView.enablesReturnKeyAutomatically = YES;
     textView.placeholder = @"发一条友善的评论吧~";
     [self addSubview:textView];

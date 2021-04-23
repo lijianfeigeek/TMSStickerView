@@ -216,35 +216,35 @@
     
     NSMutableArray *titlesArray = [NSMutableArray array];
     if (!self.isHideCustomEmoji) {
-        TMSEmoji *emoji = [[TMSEmoji alloc] init];
-        emoji.type = TMSEmojiTypePeople;
-        emoji.title = @"默认";
-        [titlesArray addObject:emoji];
+//        TMSEmoji *emoji = [[TMSEmoji alloc] init];
+//        emoji.type = TMSEmojiTypePeople;
+//        emoji.title = @"默认";
+//        [titlesArray addObject:emoji];
 //        emoji = [[TMSEmoji alloc] init];
 //        emoji.type = TMSEmojiTypeFlower;
 //        emoji.title = @"自定义";
 //        [titlesArray addObject:emoji];
     } else {
-        TMSEmoji *emoji = [[TMSEmoji alloc] init];
-        emoji.type = TMSEmojiTypePeople;
-        emoji.title = @"人物";
-        [titlesArray addObject:emoji];
-        emoji = [[TMSEmoji alloc] init];
-        emoji.type = TMSEmojiTypeFlower;
-        emoji.title = @"自然";
-        [titlesArray addObject:emoji];
-        emoji = [[TMSEmoji alloc] init];
-        emoji.type = TMSEmojiTypeBell;
-        emoji.title = @"日常";
-        [titlesArray addObject:emoji];
-        emoji = [[TMSEmoji alloc] init];
-        emoji.type = TMSEmojiTypeVehicle;
-        emoji.title = @"旅行";
-        [titlesArray addObject:emoji];
-        emoji = [[TMSEmoji alloc] init];
-        emoji.type = TMSEmojiTypeNumber;
-        emoji.title = @"符号";
-        [titlesArray addObject:emoji];
+//        TMSEmoji *emoji = [[TMSEmoji alloc] init];
+//        emoji.type = TMSEmojiTypePeople;
+//        emoji.title = @"人物";
+//        [titlesArray addObject:emoji];
+//        emoji = [[TMSEmoji alloc] init];
+//        emoji.type = TMSEmojiTypeFlower;
+//        emoji.title = @"自然";
+//        [titlesArray addObject:emoji];
+//        emoji = [[TMSEmoji alloc] init];
+//        emoji.type = TMSEmojiTypeBell;
+//        emoji.title = @"日常";
+//        [titlesArray addObject:emoji];
+//        emoji = [[TMSEmoji alloc] init];
+//        emoji.type = TMSEmojiTypeVehicle;
+//        emoji.title = @"旅行";
+//        [titlesArray addObject:emoji];
+//        emoji = [[TMSEmoji alloc] init];
+//        emoji.type = TMSEmojiTypeNumber;
+//        emoji.title = @"符号";
+//        [titlesArray addObject:emoji];
     }
     
     return titlesArray.copy;
@@ -450,7 +450,8 @@
         [tempEmojiArray addObject:tempCustomArray[i]];
     }
 
-    return tempDataSource.copy;
+//    return tempDataSource.copy;
+    return  nil;
     
 }
 
